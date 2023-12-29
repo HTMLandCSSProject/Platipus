@@ -10,7 +10,7 @@ body, html {
   
   .bg-image {
     /* The image used */
-    background-image: url("assets/R.jpg");
+    background-image: url("assets/swimming_platipus.jpg");
     
     /* Add the blur effect */
     filter: blur(8px);
