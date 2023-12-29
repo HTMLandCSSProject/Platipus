@@ -60,3 +60,11 @@ body, html {
   .nav-bar a:hover {
     background-color: #444;
   }
+
+  .platipus {
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 500px;
+    height: 600px;
+    border-radius: 15px 15px 15px 15px;
+  }
