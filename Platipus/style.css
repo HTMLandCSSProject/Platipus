@@ -4,10 +4,6 @@ body, html {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  * {
-    box-sizing: border-box;
-  }
-  
   .bg-image {
     /* The image used */
     background-image: url("assets/swimming_platipus.jpg");
@@ -38,23 +34,22 @@ body, html {
     transform: translate(-50%, -50%);
     z-index: 2;
     width: 80%;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
   }
 
   .nav-bar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
     background-color: #333;
     color: #fff;
   }
   
   .nav-bar a {
     text-decoration: none;
+    display: block;
     color: #fff;
     padding: 10px;
+    padding-right: 150px;
   }
   
   .nav-bar a:hover {
@@ -66,5 +61,11 @@ body, html {
     padding-left: 15px;
     width: 500px;
     height: 600px;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 10%;
+  }
+
+  aside { 
+    float: right;
+    width: 900px;
+    padding: 40px;
   }
