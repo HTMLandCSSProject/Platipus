@@ -10,7 +10,7 @@ body, html {
     
     /* Add the blur effect */
     filter: blur(8px);
-    -webkit-filter: blur(8px);
+    -webkit-filter: blur(6px);
     
     /* Full height */
     height: 100%; 
@@ -72,4 +72,12 @@ body, html {
 
   .facts1 {
     text-align: center;
+    border: #333;
+    padding: 25px;
+    border-style: dotted;
+    border-radius: 10%;
+  }
+
+  section img {
+    border-radius: 3.9%;
   }
