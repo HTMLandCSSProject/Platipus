@@ -158,7 +158,8 @@ body, html {
     text-align: center;
     border: #333;
     padding: 25px;
-    border-style: dotted;
+    margin: 25px;
+    border-style: ridge;
     border-radius: 10%;
   }
 
