@@ -1,9 +1,8 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arimo";
 }
-
 .bg-image {
   /* The image used */
   background-image: url("assets/swimming_platipus.jpg");
@@ -165,4 +164,15 @@ body, html {
 
   section img {
     border-radius: 3.9%;
+  }
+
+  footer  {
+    color: #f1f1f1;
+    background-color: #444;
+    text-align: center;
+    height: 100px;
+  }
+
+  #footer {
+    padding-top: 50px;
   }
