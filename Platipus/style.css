@@ -1,87 +1,4 @@
 body, html {
-  height: 100%;
-  margin: 0;
-  font-family: "Arimo";
-}
-.bg-image {
-  /* The image used */
-  background-image: url("assets/swimming_platipus.jpg");
-  
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(6px);
-  
-  /* Full height */
-  height: 100%; 
-  
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* Position text in the middle of the page/image */
-.bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 50px;
-  text-align: center;
-}
-
-.nav-bar {
-  display: flex;
-  background-color: #333;
-  color: #fff;
-}
-
-.nav-bar a {
-  text-decoration: none;
-  display: block;
-  color: #fff;
-  padding: 10px;
-  padding-right: 150px;
-}
-
-.nav-bar a:hover {
-  background-color: #444;
-}
-
-.platipus {
-  padding-top: 15px;
-  padding-left: 15px;
-  width: 500px;
-  height: 600px;
-  border-radius: 10%;
-}
-
-aside { 
-  float: right;
-  width: 900px;
-  padding: 40px;
-}
-
-.facts1 {
-  text-align: center;
-  border: #333;
-  padding: 25px;
-  border-style: dotted;
-  border-radius: 10%;
-}
-
-section img {
-  border-radius: 3.9%;
-}
-
-body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -155,11 +72,8 @@ body, html {
 
   .facts1 {
     text-align: center;
-    border: #333;
-    padding: 25px;
+    padding: 105px;
     margin: 25px;
-    border-style: ridge;
-    border-radius: 10%;
   }
 
   section img {
